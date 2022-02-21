@@ -34,7 +34,7 @@
     height:50px;
     overflow:hidden;
 }
-.i-title-wrapper{
+.i-wrapper{
     height: 100%;
     animation: move 5s ease-in-out infinite alternate;
 }
@@ -48,7 +48,7 @@
     }
 }
 
-.i-title-item{
+.i-item{
     height: 50px;
     font-size: 30px;
     font-weight: bold;
