@@ -1,11 +1,15 @@
 import React from 'react';
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import Container from "react-bootstrap/Container";
 import "./knowledge.css"
-import njitLogo from '../img/njitlogo.png'
 
 function Knowledgeright() {
     return <div className="k">
-        <div className="k-right">
-            <div className="k-right-wrapper">
+        <Container className="k-content">
+            <Row>
+                <Col>
+            <div className="k-wrapper">
                 <h2 className="k-edu-title">Languages</h2>
                 <div className="k-edu-skill">
                     <div className="k-skill-logo">
@@ -27,7 +31,9 @@ function Knowledgeright() {
                     </div>
                 </div>
             </div>
-        </div>
+            </Col>
+            </Row>
+        </Container>
     </div>
 }
 

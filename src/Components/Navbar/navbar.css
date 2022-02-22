@@ -1,0 +1,19 @@
+.Link{
+    color: #D3D3D3;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.Link:hover{
+    color: #6C63FF;
+}
+
+.Brand{
+    color: #D3D3D3;
+
+}
+
+.Bar{
+    text-decoration: none;
+    justify-content: end;
+}

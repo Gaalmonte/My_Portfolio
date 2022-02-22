@@ -1,0 +1,17 @@
+.p-title{
+    font-size:50px;
+    text-align: center;
+    padding-bottom: 45px;
+}
+
+.p-container{
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+}
+
+.Button1{
+    margin-left: 10px;
+    margin-right: 10px;
+}

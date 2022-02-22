@@ -2,37 +2,21 @@
     display:flex;
     height: 100vh;
 }
-.k-left{
-    flex:1;
+.k-content{
     display:flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.k-wrapper{
+    padding:50px;
+    height: 80%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
     position:relative;
-}
-
-.k-right{
-    flex:1;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.k-left-wrapper{
-    padding:50px;
-    height: 70%;
-    display:flex;
-    flex-direction: column;
-    justify-content: space-between;
-    position:absolute;
-}
-
-.k-right-wrapper{
-    padding:50px;
-    height: 70%;
-    display:flex;
-    flex-direction: column;
-    justify-content: space-between;
-    
 }
 
 .k-edu-title{
@@ -41,23 +25,19 @@
 }
 
 .k-title-item{
-    font-size: 20px;
-    /* font-weight: bold; */
     align-items: center;
 }
 
 .k-edu-inline{
-    flex:1;
-    display:flex;
     align-items: center;
     justify-content: center;
 }
 .k-edu-item{
-    padding:50px;
-    height: 25%;
+    padding:150px;
+    height:200px;
     display:flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     text-align: center;
     align-items: center;
 }
@@ -72,7 +52,7 @@
 .k-edu-skill{
     margin: 10%;
     text-align: center;
-    
+
 }
 .k-skill-logo{
     margin: 25%;
@@ -80,12 +60,5 @@
 .k-edu-img{
     width: 80px;
     height: 80px;
-}
-
-.k-bg{
-    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 0 53%, 0% 0%);
-    background-color: #6C63FF;
-    width: 150%;
-    height: 100%;
-    position: absolute;
+    position: relative;
 }

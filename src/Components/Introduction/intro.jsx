@@ -1,16 +1,26 @@
 import React from 'react';
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import Container from "react-bootstrap/Container";
 import "./intro.css"
-import Me from '../img/programmer.svg'
+import Me from '../img/me.jpg'
 
 function Intro() {
   return <div className="i">
-    <div className="i-left">
-      <div className="i-left-wrapper">
+
+    <Container fluid className="i-container">
+      <Row>
+        <Col>
+          <img id="about" src={Me} alt="picture of someone programming" className="i-img" />
+        </Col>
+      </Row>
+      <Row>
+      <Col className="i-left-wrapper">
         <h2 className='i-intro'> Hello, My name is</h2>
         <h1 className='i-name'>German Almonte</h1>
         <div className="i-title">
           <div className="i-wrapper">
-            <div className="i-item">Full Stack Web Developer</div>
+            <div className="i-item">Web Developer</div>
             <div className="i-item">Software Developer</div>
             <div className="i-item">Game Developer</div>
           </div>
@@ -18,7 +28,8 @@ function Intro() {
         <p className="i-description">
           I specialize in developing software of all types and as a hobby I like to dabble in game development.
         </p>
-      </div>
+      </Col>
+      </Row>
       <svg
         width="75"
         height="75"
@@ -75,10 +86,7 @@ function Intro() {
           </g>
         </g>
       </svg>
-    </div>
-    <div className="i-right">
-      <img src={Me} alt="picture of someone programming" className="i-img" />
-    </div>
+    </Container>
   </div>
 }
 
