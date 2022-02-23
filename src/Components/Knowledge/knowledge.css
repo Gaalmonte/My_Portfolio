@@ -1,26 +1,13 @@
 .k{
-    display:flex;
+    display: flex;
     height: 100vh;
-}
-.k-content{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    position: relative;
 }
 
 .k-wrapper{
-    padding:50px;
-    height: 80%;
-    display:flex;
-    flex-direction: column;
-    justify-content: space-between;
-    position:relative;
+    margin-top: 100px;
 }
-
 .k-edu-title{
-    font-size:50px;
+    font-size: 50px;
     text-align: center;
 }
 
@@ -33,8 +20,6 @@
     justify-content: center;
 }
 .k-edu-item{
-    padding:150px;
-    height:200px;
     display:flex;
     flex-direction: column;
     justify-content: space-around;
@@ -47,18 +32,20 @@
     display:flex;
     flex-direction: column;
     justify-content: space-between;
+    padding-top: 50px;
 }
 
 .k-edu-skill{
-    margin: 10%;
+    /* margin: 10%; */
     text-align: center;
 
 }
 .k-skill-logo{
-    margin: 25%;
+    padding-top: 50px;
+    padding-bottom: 100px;
 }
 .k-edu-img{
-    width: 80px;
-    height: 80px;
+    width: 84px;
+    height: 84px;
     position: relative;
 }

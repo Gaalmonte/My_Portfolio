@@ -11,13 +11,13 @@ import ContactLeft from './Components/Contact/contactleft';
 
 function App() {
   return (
-    <div >
-      <Container fluid className="Content">
-        <Row className="spacing">
+    <div className="Content">
+      <Container fluid>
+        <Row>
           <FixedBar />
         </Row>
         <Row>
-        <Intro className="firstpart" />
+        <Intro/>
         </Row>
         <Row>
           <Col>
