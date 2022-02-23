@@ -7,8 +7,7 @@ import Projects from './Components/Projects/projects';
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
-import FooterBar from './Components/Footer/footer';
-// import ContactPage from './Components/Contact/contactpage';
+import ContactLeft from './Components/Contact/contactleft';
 
 function App() {
   return (
@@ -18,7 +17,7 @@ function App() {
           <FixedBar />
         </Row>
         <Row>
-          <Intro />
+        <Intro className="firstpart" />
         </Row>
         <Row>
           <Col>
@@ -31,11 +30,11 @@ function App() {
         <Row>
           <Projects />
         </Row>
-        {/* <Row>
-          <ContactPage />
-        </Row> */}
+        <Row>
+        <ContactLeft/>
+        </Row>
       </Container>
-      <FooterBar/>
+
     </div>
   );
 }

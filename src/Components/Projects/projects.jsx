@@ -20,16 +20,16 @@ function Projects() {
         <h2 className="p-title">Projects</h2>
             <Row xs={1} md={3}>
                 <Col>
-                    <Card border="primary" className="mb-3">
-                    <HoverVideoPlayer
+                    <Card border="Dark" className="card text-white bg-dark mb-3">
+                    <HoverVideoPlayer className='preview'
                     videoSrc={superchat}
                     loadingOverlay={
                         <div className="loading-overlay">
                         <div className="loading-spinner" />
                         </div>}
                     />
-                        <Card.Body>
-                            <Card.Title>Super Chat</Card.Title>
+                        <Card.Body className="cardbody">
+                            <Card.Title className="cardtitle">Super Chat</Card.Title>
                             <Card.Text>
                                 Chat in real time with React and Firebase, Authenticates the user with Google.
                             </Card.Text>
@@ -38,29 +38,29 @@ function Projects() {
                             <a href="https://react-firebasesuperchat.herokuapp.com/"
                                 target="_blank"
                                 rel="noopener no referrer">
-                                <Button variant="primary" size="md" className="Button1">Deployment</Button>
+                                <Button variant="secondary" size="md" className="Button1">Deployment</Button>
                             </a>
                             <a href="https://github.com/Gaalmonte/Chat-Application"
                                 target="_blank"
                                 rel="noopener noreferrer">
-                                <Button variant="primary" size="md" className="Button1">Source Code</Button>
+                                <Button variant="secondary" size="md" className="Button1">Source Code</Button>
                             </a>
                         </Card.Footer>
                     </Card>
                 </Col>
                 <Col>
-                    <Card border="primary" className="mb-3">
-                    <HoverVideoPlayer
+                    <Card border="Dark" className="card text-white bg-dark mb-3">
+                    <HoverVideoPlayer className='preview'
                     videoSrc={phasergame}
                     loadingOverlay={
                         <div className="loading-overlay">
                         <div className="loading-spinner" />
                         </div>}
                     />
-                        <Card.Body>
+                        <Card.Body className="cardbody">
                             <Card.Title>2D Dungeon Crawler</Card.Title>
                             <Card.Text>
-                                Utilizing Javascript and Phaser 3 a classmate and I started collaborating on our own project.
+                                Utilizing Javascript and Phaser 3. A classmate and I started collaborating on our own project.
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer>
@@ -72,36 +72,36 @@ function Projects() {
                             <a href="https://github.com/Gaalmonte/Phaser-Game"
                                 target="_blank"
                                 rel="noopener noreferrer">
-                                <Button variant="primary" size="md"className="Button1" >Source Code</Button>
+                                <Button variant="secondary" size="md"className="Button1" >Source Code</Button>
                             </a>
                         </Card.Footer>
                     </Card>
                 </Col>
                 <Col>
-                    <Card border="primary" className="mb-3">
-                    <HoverVideoPlayer
+                    <Card border="Dark" className="card text-white bg-dark mb-3">
+                    <HoverVideoPlayer className='preview'
                     videoSrc={weatherapi}
                     loadingOverlay={
                         <div className="loading-overlay">
                         <div className="loading-spinner" />
                         </div>}
                     />
-                        <Card.Body>
+                        <Card.Body className="cardbody">
                             <Card.Title>Weather API</Card.Title>
                             <Card.Text>
                                 Built a page that calls upon an API using React to deliver the weather of city chosen.
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer>
-                            <a
+                            <a href="https://weatherapispa.herokuapp.com/"
                                 target="_blank"
                                 rel="noopener no referrer">
-                                <Button variant="disabled" size="md"className="Button1" >Deployment</Button>
+                                <Button variant="secondary" size="md"className="Button1" >Deployment</Button>
                             </a>
                             <a href="https://github.com/Gaalmonte/RR-React-SPA-Project"
                                 target="_blank"
                                 rel="noopener noreferrer">
-                                <Button variant="primary" size="md"className="Button1" >Source Code</Button>
+                                <Button variant="secondary" size="md"className="Button1" >Source Code</Button>
                             </a>
                         </Card.Footer>
                     </Card>
@@ -109,44 +109,44 @@ function Projects() {
             </Row>
             <Row xs={1} md={3}>
                 <Col>
-                    <Card border="primary" className="mb-3">
-                    <HoverVideoPlayer
+                    <Card border="Dark" className="card text-white bg-dark mb-3">
+                    <HoverVideoPlayer className='preview'
                     videoSrc={restrant}
                     loadingOverlay={
                         <div className="loading-overlay">
                         <div className="loading-spinner" />
                         </div>}
                     />
-                        <Card.Body>
-                            <Card.Title>Restaurant Restrant</Card.Title>
+                        <Card.Body className="cardbody">
+                            <Card.Title>REST-rant</Card.Title>
                             <Card.Text>
-                                Built using Express, Nodejs, React, and Mongodb. Learned how to make a REST API.
+                                Built using Express, Nodejs, React, and Mongodb. Also utilized postman at times.
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer>
                             <a href="https://restrant.herokuapp.com/"
                                 target="_blank"
                                 rel="noopener no referrer">
-                                <Button variant="primary" size="md" className="Button1">Deployment</Button>
+                                <Button variant="secondary" size="md" className="Button1">Deployment</Button>
                             </a>
                             <a href="https://github.com/Gaalmonte/project-REST-rant"
                                 target="_blank"
                                 rel="noopener noreferrer">
-                                <Button variant="primary" size="md" className="Button1">Source Code</Button>
+                                <Button variant="secondary" size="md" className="Button1">Source Code</Button>
                             </a>
                         </Card.Footer>
                     </Card>
                 </Col>
                 <Col>
-                    <Card border="primary" className="mb-3">
-                    <HoverVideoPlayer
+                    <Card border="Dark" className="card text-white bg-dark mb-3">
+                    <HoverVideoPlayer className='preview'
                     videoSrc={breakoutgame}
                     loadingOverlay={
                         <div className="loading-overlay">
                         <div className="loading-spinner" />
                         </div>}
                     />
-                        <Card.Body>
+                        <Card.Body className="cardbody">
                             <Card.Title>2D Breakout Game</Card.Title>
                             <Card.Text>
                                 Built entirely using vanilla Javascript. Demonstrating object oriented programming knowledge.
@@ -156,26 +156,26 @@ function Projects() {
                             <a href="https://gaalmonte.github.io/2D-Breakout-Game/"
                                 target="_blank"
                                 rel="noopener no referrer">
-                                <Button variant="primary" size="md" className="Button1">Deployment</Button>
+                                <Button variant="secondary" size="md" className="Button1">Deployment</Button>
                             </a>
                             <a href="https://github.com/Gaalmonte/2D-Breakout-Game"
                                 target="_blank"
                                 rel="noopener noreferrer">
-                                <Button variant="primary" size="md" className="Button1">Source Code</Button>
+                                <Button variant="secondary" size="md" className="Button1">Source Code</Button>
                             </a>
                         </Card.Footer>
                     </Card>
                 </Col>
                 <Col>
-                    <Card border="primary" className="mb-3">
-                    <HoverVideoPlayer
+                    <Card border="Dark" className="card text-white bg-dark mb-3">
+                    <HoverVideoPlayer className='preview'
                     videoSrc={reactamole}
                     loadingOverlay={
                         <div className="loading-overlay">
                         <div className="loading-spinner" />
                         </div>}
                     />
-                        <Card.Body>
+                        <Card.Body className="cardbody">
                             <Card.Title>React A Mole</Card.Title>
                             <Card.Text>
                                 Using React I used state to keep track of score, mole status and more.
@@ -185,12 +185,12 @@ function Projects() {
                             <a href="https://reactamole.herokuapp.com/"
                                 target="_blank"
                                 rel="noopener no referrer">
-                                <Button variant="primary" size="md" className="Button1">Deployment</Button>
+                                <Button variant="secondary" size="md" className="Button1">Deployment</Button>
                             </a>
                             <a href="https://github.com/Gaalmonte/react_a_mole"
                                 target="_blank"
                                 rel="noopener noreferrer">
-                                <Button variant="primary" size="md" className="Button1">Source Code</Button>
+                                <Button variant="secondary" size="md" className="Button1">Source Code</Button>
                             </a>
                         </Card.Footer>
                     </Card>

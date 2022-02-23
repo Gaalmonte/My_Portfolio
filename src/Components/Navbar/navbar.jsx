@@ -8,7 +8,7 @@ import "./navbar.css"
 function FixedBar() {
     return <div className="bar">
         <BrowserRouter>
-            <Navbar bg="dark"  expands="lg" fixed="top">
+            <Navbar expands="lg" fixed="top">
                 <Container fluid>
                     <Navbar.Brand className="Brand">
                     </Navbar.Brand>

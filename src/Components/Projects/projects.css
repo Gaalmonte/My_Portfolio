@@ -9,9 +9,14 @@
     justify-content: center;
     position: relative;
     text-align: center;
+    margin-bottom: 100px;
 }
 
 .Button1{
     margin-left: 10px;
     margin-right: 10px;
+}
+
+.cardbody{
+    color: #f1f1ef;
 }

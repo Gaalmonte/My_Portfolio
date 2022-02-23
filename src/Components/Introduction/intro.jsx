@@ -6,12 +6,11 @@ import "./intro.css"
 import Me from '../img/me.jpg'
 
 function Intro() {
-  return <div className="i">
-
+  return <div id="about" className="i">
     <Container fluid className="i-container">
       <Row>
         <Col>
-          <img id="about" src={Me} alt="picture of someone programming" className="i-img" />
+          <img src={Me} alt="picture of someone programming" className="i-img" />
         </Col>
       </Row>
       <Row>

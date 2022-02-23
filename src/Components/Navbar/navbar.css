@@ -1,15 +1,15 @@
 .Link{
-    color: #D3D3D3;
+    color: #f1f1ef;
     padding: 5px;
     text-decoration: none;
 }
 
 .Link:hover{
-    color: #6C63FF;
+    color: #fa255e;
 }
 
 .Brand{
-    color: #D3D3D3;
+    color: #f1f1ef;
 
 }
 

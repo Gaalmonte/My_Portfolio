@@ -28,7 +28,7 @@ function Knowledgeleft() {
                                 </div>
                                 <div className="k-desc-item">
                                     <div className="k-title-item"><h3>Software Development Bootcamp Certification</h3></div>
-                                    <div className="k-title-item"><p>Sept 2021 - May 2022</p></div>
+                                    <div className="k-title-item"><p>Fall 2021 - Spring 2022</p></div>
                                 </div>
                             </div>
                         </div>

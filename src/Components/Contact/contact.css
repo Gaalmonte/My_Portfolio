@@ -1,0 +1,19 @@
+.f{
+    margin-top: 400px;
+    display:flex;
+    height: 30vh;
+    min-height: 400px;
+}
+
+.f-contact-l{
+    display:flex;
+    flex: 1;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    text-align: center;
+    /* align-items: center; */
+}
+
+.f-icons{
+    margin-top:30px;
+}
