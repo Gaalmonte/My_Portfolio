@@ -2,7 +2,13 @@ import React from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
+import emailjs from 'emailjs-com'
+
 import "./contact.css";
+function sendEmail(e){
+    e.preventDefault();
+    emailjs.sendForm('service_nbvu5j6', 'template_pnps17h', e.target, "user_xJbPTcQ0A7tHV5X4YJppl")
+}
 
 function ContactRight() {
     return <div className="c">
@@ -14,19 +20,19 @@ function ContactRight() {
                     <h2 className="c-email">Contact me</h2>
                     </div>
                     <div className="c-item">
-                        <form className="my-form">
-                            <div className="container">
+                        <form className="my-form" onSubmit={sendEmail} >
+                            <div className="container" >
                             <ul>
                                 <li>
                                 <div className="grid">
-                                <input type="text" placeholder="Name" required/>
+                                <input type="text" placeholder="Name" name="name" required/>
                                 </div>
                                 <div className="grid">
                                 <input type="email" placeholder="Email" name="user_email" required/>
                                 </div>
                                 </li>
                                 <li>
-                                <textarea placeholder="Message"></textarea>
+                                <textarea placeholder="Message" name="message"></textarea>
                                 </li>
                                 <li>
                                 <div className="grid grid-3">

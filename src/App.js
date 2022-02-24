@@ -34,10 +34,10 @@ function App() {
           <Projects />
         </Row>
         <Row>
-          <Col sm={6}>
+          <Col sm={5}>
             <ContactLeft/>
           </Col>
-          <Col sm={4}>
+          <Col sm={6}>
             <ContactRight/>
           </Col>
         </Row>

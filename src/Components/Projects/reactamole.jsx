@@ -17,7 +17,7 @@ function ReactAMole() {
                           alt="preview for my react a mole site"
                           style={{
                             // Make the image expand to cover the video's dimensions
-                            width: '100%',
+                            width: 'auto',
                             height: '100%',
                             objectFit: 'cover',
                           }}
@@ -31,7 +31,7 @@ function ReactAMole() {
                         <Card.Body className="cardbody">
                             <Card.Title>React A Mole</Card.Title>
                             <Card.Text>
-                                Using React I used state to keep track of score, mole status and more.
+                                Used State in React to keep track of score, mole status and more.
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer>

@@ -12,7 +12,7 @@ import ReactAMole from './reactamole';
 
 function Projects() {
     return <div id="projects" className="p">
-        <Container className="p-container">
+        <Container >
         <h2 className="p-title">Projects</h2>
             <Row xs={1} md={3}>
                 <Col>
