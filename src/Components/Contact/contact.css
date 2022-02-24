@@ -27,7 +27,6 @@
     --bgFormEls: hsl(0, 0%, 14%);
     --bgFormElsFocus: hsl(0, 7%, 20%);
   }
-
   a {
     color: inherit;
   }
@@ -62,9 +61,15 @@
     list-style: none;
   }
 
+  body {
+    font: 18px/1.5 "Open Sans", sans-serif;
+    background: var(--bodyColor);
+    color: var(--white);
+    margin: 1.5rem 0;
+  }
 
   .container {
-    /* max-width: 800px; */
+    max-width: 800px;
     margin: 0 auto;
     padding: 0 1.5rem;
   }
@@ -102,6 +107,21 @@
     opacity: 1;
   }
 
+  .my-form select:focus,
+  .my-form input:focus,
+  .my-form textarea:focus,
+  .my-form button:enabled:hover,
+  .my-form button:focus,
+  .my-form input[type="checkbox"]:focus + label {
+    background: var(--bgFormElsFocus);
+  }
+
+  .my-form select:focus,
+  .my-form input:focus,
+  .my-form textarea:focus {
+    transform: scale(1.02);
+  }
+
   .my-form *:required,
   .my-form select {
     background-repeat: no-repeat;
@@ -115,6 +135,11 @@
 
   .my-form select {
     background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/down.svg);
+  }
+
+  .my-form *:disabled {
+    cursor: default;
+    filter: blur(2px);
   }
 
   .my-form .required-msg {
@@ -157,7 +182,7 @@
     transform: translateX(110%);
   }
 
-  @media screen and (min-width: 1300px) {
+  @media screen and (min-width: 600px) {
     .my-form .grid {
       display: grid;
       grid-gap: 1.5rem;

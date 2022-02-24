@@ -7,7 +7,7 @@ import emailjs from 'emailjs-com'
 import "./contact.css";
 function sendEmail(e){
     e.preventDefault();
-    emailjs.sendForm('service_nbvu5j6', 'template_pnps17h', e.target, "user_xJbPTcQ0A7tHV5X4YJppl")
+    emailjs.sendForm('service_b5swx77', 'template_pnps17h', e.target, "user_xJbPTcQ0A7tHV5X4YJppl").then(res=>{console.log(res);}).catch(err=>console.log(err));
 }
 
 function ContactRight() {
