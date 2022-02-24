@@ -6,7 +6,7 @@ import "./intro.css"
 import Me from '../img/me.jpg'
 
 function Intro() {
-  return <div id="about" className="i">
+  return <div id="/" className="i">
     <Container fluid className="i-container">
       <Row>
         <Col>
