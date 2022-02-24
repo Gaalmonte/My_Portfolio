@@ -1,18 +1,14 @@
 import React from 'react';
-import Card from "react-bootstrap/Card";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
-import Button from "react-bootstrap/Button";
-import HoverVideoPlayer from 'react-hover-video-player';
-import superchat from '../img/superchat.mp4';
-import phasergame from '../img/phasergame.mp4';
-import weatherapi from '../img/weatherapi.mp4';
-import restrant from '../img/restrant.mp4';
-import reactamole from '../img/reactamole.mp4';
-import breakoutgame from '../img/breakoutgame.mp4';
-
 import "./projects.css"
+import Superchat from './superchat';
+import PhaserGame from './phasergame';
+import WeatherApi from './weatherapi';
+import BreakoutGame from './breakoutgame';
+import RestRant from './restrant';
+import ReactAMole from './reactamole';
 
 function Projects() {
     return <div id="projects" className="p">
@@ -20,180 +16,24 @@ function Projects() {
         <h2 className="p-title">Projects</h2>
             <Row xs={1} md={3}>
                 <Col>
-                    <Card border="Dark" className="card text-white bg-dark mb-3">
-                    <HoverVideoPlayer className='preview'
-                    videoSrc={superchat}
-                    loadingOverlay={
-                        <div className="loading-overlay">
-                        <div className="loading-spinner" />
-                        </div>}
-                    />
-                        <Card.Body className="cardbody">
-                            <Card.Title className="cardtitle">Super Chat</Card.Title>
-                            <Card.Text>
-                                Chat in real time with React and Firebase, Authenticates the user with Google.
-                            </Card.Text>
-                        </Card.Body>
-                        <Card.Footer>
-                            <a href="https://react-firebasesuperchat.herokuapp.com/"
-                                target="_blank"
-                                rel="noopener no referrer">
-                                <Button variant="secondary" size="md" className="Button1">Deployment</Button>
-                            </a>
-                            <a href="https://github.com/Gaalmonte/Chat-Application"
-                                target="_blank"
-                                rel="noopener noreferrer">
-                                <Button variant="secondary" size="md" className="Button1">Source Code</Button>
-                            </a>
-                        </Card.Footer>
-                    </Card>
+                    <Superchat/>
                 </Col>
                 <Col>
-                    <Card border="Dark" className="card text-white bg-dark mb-3">
-                    <HoverVideoPlayer className='preview'
-                    videoSrc={phasergame}
-                    loadingOverlay={
-                        <div className="loading-overlay">
-                        <div className="loading-spinner" />
-                        </div>}
-                    />
-                        <Card.Body className="cardbody">
-                            <Card.Title>2D Dungeon Crawler</Card.Title>
-                            <Card.Text>
-                                Utilizing Javascript and Phaser 3. A classmate and I started collaborating on our own project.
-                            </Card.Text>
-                        </Card.Body>
-                        <Card.Footer>
-                            <a
-                                target="_blank"
-                                rel="noopener no referrer">
-                                <Button variant="disabled" size="md" className="Button1">Deployment</Button>
-                            </a>
-                            <a href="https://github.com/Gaalmonte/Phaser-Game"
-                                target="_blank"
-                                rel="noopener noreferrer">
-                                <Button variant="secondary" size="md"className="Button1" >Source Code</Button>
-                            </a>
-                        </Card.Footer>
-                    </Card>
+                    <PhaserGame/>
                 </Col>
                 <Col>
-                    <Card border="Dark" className="card text-white bg-dark mb-3">
-                    <HoverVideoPlayer className='preview'
-                    videoSrc={weatherapi}
-                    loadingOverlay={
-                        <div className="loading-overlay">
-                        <div className="loading-spinner" />
-                        </div>}
-                    />
-                        <Card.Body className="cardbody">
-                            <Card.Title>Weather API</Card.Title>
-                            <Card.Text>
-                                Built a page that calls upon an API using React to deliver the weather of city chosen.
-                            </Card.Text>
-                        </Card.Body>
-                        <Card.Footer>
-                            <a href="https://weatherapispa.herokuapp.com/"
-                                target="_blank"
-                                rel="noopener no referrer">
-                                <Button variant="secondary" size="md"className="Button1" >Deployment</Button>
-                            </a>
-                            <a href="https://github.com/Gaalmonte/RR-React-SPA-Project"
-                                target="_blank"
-                                rel="noopener noreferrer">
-                                <Button variant="secondary" size="md"className="Button1" >Source Code</Button>
-                            </a>
-                        </Card.Footer>
-                    </Card>
+                    <WeatherApi/>
                 </Col>
             </Row>
             <Row xs={1} md={3}>
                 <Col>
-                    <Card border="Dark" className="card text-white bg-dark mb-3">
-                    <HoverVideoPlayer className='preview'
-                    videoSrc={restrant}
-                    loadingOverlay={
-                        <div className="loading-overlay">
-                        <div className="loading-spinner" />
-                        </div>}
-                    />
-                        <Card.Body className="cardbody">
-                            <Card.Title>REST-rant</Card.Title>
-                            <Card.Text>
-                                Built using Express, Nodejs, React, and Mongodb. Also utilized postman at times.
-                            </Card.Text>
-                        </Card.Body>
-                        <Card.Footer>
-                            <a href="https://restrant.herokuapp.com/"
-                                target="_blank"
-                                rel="noopener no referrer">
-                                <Button variant="secondary" size="md" className="Button1">Deployment</Button>
-                            </a>
-                            <a href="https://github.com/Gaalmonte/project-REST-rant"
-                                target="_blank"
-                                rel="noopener noreferrer">
-                                <Button variant="secondary" size="md" className="Button1">Source Code</Button>
-                            </a>
-                        </Card.Footer>
-                    </Card>
+                    <RestRant/>
                 </Col>
                 <Col>
-                    <Card border="Dark" className="card text-white bg-dark mb-3">
-                    <HoverVideoPlayer className='preview'
-                    videoSrc={breakoutgame}
-                    loadingOverlay={
-                        <div className="loading-overlay">
-                        <div className="loading-spinner" />
-                        </div>}
-                    />
-                        <Card.Body className="cardbody">
-                            <Card.Title>2D Breakout Game</Card.Title>
-                            <Card.Text>
-                                Built entirely using vanilla Javascript. Demonstrating object oriented programming knowledge.
-                            </Card.Text>
-                        </Card.Body>
-                        <Card.Footer>
-                            <a href="https://gaalmonte.github.io/2D-Breakout-Game/"
-                                target="_blank"
-                                rel="noopener no referrer">
-                                <Button variant="secondary" size="md" className="Button1">Deployment</Button>
-                            </a>
-                            <a href="https://github.com/Gaalmonte/2D-Breakout-Game"
-                                target="_blank"
-                                rel="noopener noreferrer">
-                                <Button variant="secondary" size="md" className="Button1">Source Code</Button>
-                            </a>
-                        </Card.Footer>
-                    </Card>
+                    <BreakoutGame/>
                 </Col>
                 <Col>
-                    <Card border="Dark" className="card text-white bg-dark mb-3">
-                    <HoverVideoPlayer className='preview'
-                    videoSrc={reactamole}
-                    loadingOverlay={
-                        <div className="loading-overlay">
-                        <div className="loading-spinner" />
-                        </div>}
-                    />
-                        <Card.Body className="cardbody">
-                            <Card.Title>React A Mole</Card.Title>
-                            <Card.Text>
-                                Using React I used state to keep track of score, mole status and more.
-                            </Card.Text>
-                        </Card.Body>
-                        <Card.Footer>
-                            <a href="https://reactamole.herokuapp.com/"
-                                target="_blank"
-                                rel="noopener no referrer">
-                                <Button variant="secondary" size="md" className="Button1">Deployment</Button>
-                            </a>
-                            <a href="https://github.com/Gaalmonte/react_a_mole"
-                                target="_blank"
-                                rel="noopener noreferrer">
-                                <Button variant="secondary" size="md" className="Button1">Source Code</Button>
-                            </a>
-                        </Card.Footer>
-                    </Card>
+                    <ReactAMole/>
                 </Col>
             </Row>
         </Container>

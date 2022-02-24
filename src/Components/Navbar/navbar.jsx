@@ -16,16 +16,16 @@ function FixedBar() {
                     <Navbar.Collapse id="navbarScroll">
                         <Nav className="me-auto my-2 my-lg-0" style={{ maxHeight: "100px" }} navbarScroll></Nav>
                         <Nav className="Bar">
-                            <NavHashLink className="Link" to="#about" activeClassName="selected">
+                            <NavHashLink className="Link" to="#about">
                                 ABOUT
                             </NavHashLink>
-                            <NavHashLink className="Link" to="#education" activeClassName="selected">
+                            <NavHashLink className="Link" to="#education">
                                 EDUCATION
                             </NavHashLink>
-                            <NavHashLink className="Link" to="#projects" activeClassName="selected">
+                            <NavHashLink className="Link" to="#projects">
                                 PROJECTS
                             </NavHashLink>
-                            <NavHashLink className="Link" to="#contact" activeClassName="selected">
+                            <NavHashLink className="Link" to="#contact">
                                 CONTACT
                             </NavHashLink>
                         </Nav>

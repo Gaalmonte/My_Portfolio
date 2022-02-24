@@ -1,0 +1,8 @@
+.mobile-hide{
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    .mobile-hide {
+      display: none;
+    }}

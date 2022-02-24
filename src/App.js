@@ -8,11 +8,14 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import ContactLeft from './Components/Contact/contactleft';
+import Background from './Components/Background/background';
+import ContactRight from './Components/Contact/contactright';
 
 function App() {
   return (
     <div className="Content">
       <Container fluid>
+        <Background className="bg"/>
         <Row>
           <FixedBar />
         </Row>
@@ -31,7 +34,12 @@ function App() {
           <Projects />
         </Row>
         <Row>
-        <ContactLeft/>
+          <Col sm={6}>
+            <ContactLeft/>
+          </Col>
+          <Col sm={4}>
+            <ContactRight/>
+          </Col>
         </Row>
       </Container>
 
