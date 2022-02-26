@@ -1,7 +1,12 @@
+.p{
+    z-index:1;
+}
+
 .p-title{
     font-size:50px;
     text-align: center;
     padding-bottom: 45px;
+
 }
 
 .p-container{
@@ -19,4 +24,8 @@
 
 .cardbody{
     color: #f1f1ef;
+}
+
+@media screen and (min-width: 1400px) {
+    #cardsize { width: 25rem; }
 }

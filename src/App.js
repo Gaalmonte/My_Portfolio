@@ -14,31 +14,32 @@ import ContactRight from './Components/Contact/contactright';
 function App() {
   return (
     <div className="Content">
+       <Background/>
       <Container fluid>
-        <Background className="bg"/>
+
         <Row>
-          <FixedBar />
+          <FixedBar className="element"/>
         </Row>
         <Row>
-        <Intro/>
+        <Intro className="element" />
         </Row>
         <Row>
-          <Col>
-            <Knowledgeleft />
+          <Col sm={6}>
+            <Knowledgeleft className="element" />
           </Col>
-          <Col>
-            <Knowledgeright />
+          <Col sm={6}>
+            <Knowledgeright className="element"/>
           </Col>
         </Row>
         <Row>
-          <Projects />
+          <Projects className="element"/>
         </Row>
         <Row>
           <Col sm={5}>
-            <ContactLeft/>
+            <ContactLeft className="element"/>
           </Col>
           <Col sm={6}>
-            <ContactRight/>
+            <ContactRight className="element"/>
           </Col>
         </Row>
       </Container>

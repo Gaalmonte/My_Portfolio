@@ -4,11 +4,12 @@ import Button from "react-bootstrap/Button";
 import HoverVideoPlayer from 'react-hover-video-player';
 import restrant from '../img/restrant.mp4';
 import restrantpreview from '../img/restrantpreview.png'
+import './projects.css'
 
 function RestRant() {
     return (
       <div className="Content">
-          <Card border="Dark" className="card text-white bg-dark mb-3">
+          <Card id="cardsize" border="Dark" className="card text-white bg-dark mb-3">
                     <HoverVideoPlayer className='preview'
                     videoSrc={restrant}
                     pausedOverlay={

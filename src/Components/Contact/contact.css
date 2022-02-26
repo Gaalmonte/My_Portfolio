@@ -1,8 +1,9 @@
 .c{
     display:flex;
-    margin-top: 150px;
-    /* height: 60vh; */
-
+    position: relative;
+    height: 100vh;
+    padding-top: 20vh;
+    z-index:1;
 }
 
 .c-contact-l{

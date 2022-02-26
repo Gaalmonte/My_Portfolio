@@ -1,6 +1,8 @@
 .k{
     display: flex;
     height: 100vh;
+    z-index:1;
+    position: relative;
 }
 
 .k-wrapper{

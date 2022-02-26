@@ -6,7 +6,7 @@ import "./contact.css";
 import github from "../img/github.svg";
 
 function ContactLeft() {
-    return <div id="contact" className="c">
+    return <div  className="c">
         <Container fluid>
             <Row>
                 <Col>

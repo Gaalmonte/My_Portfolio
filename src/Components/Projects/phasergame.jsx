@@ -4,11 +4,12 @@ import Button from "react-bootstrap/Button";
 import HoverVideoPlayer from 'react-hover-video-player';
 import phasergame from '../img/phasergame.mp4';
 import phasergamepreview from '../img/phasergamepreview.png'
+import './projects.css'
 
 function PhaserGame() {
     return (
       <div className="Content">
-          <Card border="Dark" className="card text-white bg-dark mb-3">
+          <Card id="cardsize" border="Dark" className="card text-white bg-dark mb-3">
                     <HoverVideoPlayer className='preview'
                     videoSrc={phasergame}
                     pausedOverlay={
@@ -31,7 +32,7 @@ function PhaserGame() {
                         <Card.Body className="cardbody">
                             <Card.Title>2D Dungeon Crawler</Card.Title>
                             <Card.Text>
-                                Utilizing Javascript and Phaser 3. A classmate and I started collaborating on our own project.
+                                Utilizing Javascript and Phaser 3. Collaborating project with Bootcamp Classmate.
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer>

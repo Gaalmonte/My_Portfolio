@@ -4,11 +4,12 @@ import Button from "react-bootstrap/Button";
 import HoverVideoPlayer from 'react-hover-video-player';
 import reactamole from '../img/reactamole.mp4';
 import reactamolepreview from '../img/reactamolepreview.png'
+import './projects.css'
 
 function ReactAMole() {
     return (
       <div className="Content">
-        <Card border="Dark" className="card text-white bg-dark mb-3">
+        <Card id="cardsize" border="Dark" className="card text-white bg-dark mb-3">
                     <HoverVideoPlayer className='preview'
                     videoSrc={reactamole}
                     pausedOverlay={
@@ -31,7 +32,7 @@ function ReactAMole() {
                         <Card.Body className="cardbody">
                             <Card.Title>React A Mole</Card.Title>
                             <Card.Text>
-                                Used State in React to keep track of score, mole status and more.
+                                Used State in React to keep track of score, mole status and more. Fun Project.
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer>

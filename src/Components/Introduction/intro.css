@@ -1,12 +1,13 @@
+
 .body{
     margin:0;
-    position:relative;
-}
+    position:relative;}
 
 .i{
     display:flex;
     height: 100vh;
     position:relative;
+    z-index:1;
 }
 .i-container{
     position: relative;
@@ -52,7 +53,7 @@
     height: 50px;
     font-size: 30px;
     font-weight: bold;
-    color:#fa255e;
+    color:#e94560;
     display:"flex";
     align-items: center;
 }

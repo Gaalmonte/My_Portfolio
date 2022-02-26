@@ -4,11 +4,12 @@ import Button from "react-bootstrap/Button";
 import HoverVideoPlayer from 'react-hover-video-player';
 import superchat from '../img/superchat.mp4';
 import chatpreview from '../img/chatpreview.png'
+import './projects.css'
 
 function Superchat() {
     return (
       <div className="Content">
-          <Card border="Dark" className="card text-white bg-dark mb-3">
+          <Card id="cardsize" border="Dark" className="card text-white bg-dark mb-3">
                     <HoverVideoPlayer className='preview'
                     videoSrc={superchat}
                     pausedOverlay={

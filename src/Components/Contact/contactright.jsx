@@ -11,7 +11,7 @@ function sendEmail(e){
 }
 
 function ContactRight() {
-    return <div className="c">
+    return <div id="contact" className="c">
         <Container fluid>
             <Row>
                 <Col>

@@ -7,15 +7,9 @@
 }
 
 .Link:hover{
-    color: #fa255e;
+    color: #e94560;
 }
 
-.Brand{
-    color: #f1f1ef;
-
-}
-
-.Bar{
-    text-decoration: none;
-    justify-content: end;
+@media screen and (max-width: 500px) {
+    .Link { background-color: #151516; }
 }

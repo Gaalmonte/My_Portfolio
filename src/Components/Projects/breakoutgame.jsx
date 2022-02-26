@@ -4,11 +4,12 @@ import Button from "react-bootstrap/Button";
 import HoverVideoPlayer from 'react-hover-video-player';
 import breakoutgame from '../img/breakoutgame.mp4';
 import breakoutgamepreview from '../img/2dbreakoutpreview.png'
+import './projects.css'
 
 function BreakoutGame() {
     return (
       <div className="Content">
-          <Card border="Dark" className="card text-white bg-dark mb-3">
+          <Card id="cardsize" border="Dark" className="card text-white bg-dark mb-3">
                     <HoverVideoPlayer className='preview'
                     videoSrc={breakoutgame}
                     pausedOverlay={
@@ -31,7 +32,7 @@ function BreakoutGame() {
                         <Card.Body className="cardbody">
                             <Card.Title>2D Breakout Game</Card.Title>
                             <Card.Text>
-                                Built entirely using vanilla Javascript. Demonstrating object oriented programming knowledge.
+                                Built entirely using vanilla Javascript. Demonstrating object oriented programming.
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer>

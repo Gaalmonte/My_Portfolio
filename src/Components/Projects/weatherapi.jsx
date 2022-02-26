@@ -4,11 +4,12 @@ import Button from "react-bootstrap/Button";
 import HoverVideoPlayer from 'react-hover-video-player';
 import weatherapi from '../img/weatherapi.mp4';
 import weatherapipreview from '../img/weatherapipreview.png'
+import './projects.css'
 
 function WeatherApi() {
     return (
       <div className="Content">
-          <Card border="Dark" className="card text-white bg-dark mb-3">
+          <Card id="cardsize" border="Dark" className="card text-white bg-dark mb-3">
                     <HoverVideoPlayer className='preview'
                     videoSrc={weatherapi}
                     pausedOverlay={
