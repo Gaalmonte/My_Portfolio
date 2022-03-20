@@ -32,7 +32,7 @@ function BreakoutGame() {
                         <Card.Body className="cardbody">
                             <Card.Title>2D Breakout Game</Card.Title>
                             <Card.Text>
-                                Built entirely using vanilla Javascript. Demonstrating object oriented programming.
+                                Break all the bricks to earn points and move up to the next level! Built entirely using vanilla Javascript. Demonstrating object oriented programming.
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer>

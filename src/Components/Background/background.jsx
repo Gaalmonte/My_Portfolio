@@ -44,6 +44,7 @@ function Background(props) {
 
         />
         <Diamond
+        className="unwanted"
         color="linear-gradient(135deg, #f8e5e5, #dfcbd0)"
         top={"10px"}
         right={"600px"}

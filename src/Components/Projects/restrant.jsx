@@ -32,7 +32,7 @@ function RestRant() {
                         <Card.Body className="cardbody">
                             <Card.Title>REST-rant</Card.Title>
                             <Card.Text>
-                                Built using Express, Nodejs, React, and Mongodb. Also utilized postman at times.
+                                Built using Express, Nodejs, React, and Mongodb. Also utilized postman at times. Submit your own pages and leave your own review!
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer>

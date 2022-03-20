@@ -8,32 +8,32 @@ import PhaserGame from './phasergame';
 import WeatherApi from './weatherapi';
 import BreakoutGame from './breakoutgame';
 import RestRant from './restrant';
-import ReactAMole from './reactamole';
+import Project1 from './rottenpotatoes';
 
 function Projects() {
     return <div id="projects" className="p">
         <Container >
-        <h2 className="p-title">Projects</h2>
+            <h2 className="p-title">Projects</h2>
             <Row xs={1} md={3}>
                 <Col>
-                    <Superchat/>
+                    <Project1/>
                 </Col>
                 <Col>
-                    <PhaserGame/>
+                    <RestRant />
                 </Col>
                 <Col>
-                    <WeatherApi/>
+                    <BreakoutGame />
                 </Col>
             </Row>
             <Row xs={1} md={3}>
                 <Col>
-                    <RestRant/>
+                    <PhaserGame />
                 </Col>
                 <Col>
-                    <BreakoutGame/>
+                    <WeatherApi />
                 </Col>
                 <Col>
-                    <ReactAMole/>
+                    <Superchat />
                 </Col>
             </Row>
         </Container>
