@@ -65,7 +65,9 @@
     bottom: 10;
     stroke: #f1f1ef;
   }
-
+  @media screen and (max-width: 500px) {
+    .i-scroll { visibility: hidden; }
+}
 .i-img{
     top: 60px;
     height: 40vh;
