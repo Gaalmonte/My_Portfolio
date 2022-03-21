@@ -2,3 +2,14 @@
   color: #f1f1ef;
   background-color: #151516;
 }
+body::-webkit-scrollbar{
+  width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track{
+  background: #151516;
+}
+
+body::-webkit-scrollbar-thumb{
+  background: #f1f1ef;
+}

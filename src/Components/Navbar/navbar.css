@@ -4,12 +4,17 @@
     text-decoration: none;
     -webkit-text-stroke-width: 0.3px;
     -webkit-text-stroke-color: #151516;
+
 }
 
 .Link:hover{
     color: #e94560;
 }
 
-@media screen and (max-width: 500px) {
+/* @media screen and (max-width: 500px) {
     .Link { background-color: #151516; }
+} */
+
+#br{
+    background-color: #151516;
 }

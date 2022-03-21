@@ -51,3 +51,47 @@
     height: 84px;
     position: relative;
 }
+
+i{
+    font-size: 60px;
+}
+
+#html{
+    color: #ffa500;
+}
+#css{
+    color: #00bfff;
+}
+#javascript{
+    color: #ffd500;
+}
+#react{
+    color: #add8e6;
+}
+#python{
+    color: #3333ff;
+}
+#heroku{
+    color: #483d8b;
+}
+#git{
+    color: #ff4500;
+}
+#github{
+    color: #ffffff;
+}
+#bootstrap{
+    color: #9370db;
+}
+#nodejs{
+    color: #228b22;
+}
+#mongodb{
+    color: #228b22;
+}
+#postgresql{
+    color: #1e90ff;
+}
+#redux{
+    color: #663399;
+}

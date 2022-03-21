@@ -1,5 +1,4 @@
-import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
+import {Card, Button} from "react-bootstrap";
 import HoverVideoPlayer from 'react-hover-video-player';
 import phasergame from '../img/phasergame.mp4';
 import phasergamepreview from '../img/phasergamepreview.png'
@@ -35,14 +34,14 @@ function PhaserGame() {
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer>
-                            <a
+                            <a href="#projects"
                                 target="_blank"
-                                rel="noopener no referrer">
+                                rel="noreferrer">
                                 <Button variant="disabled" size="md" className="Button1">Deployment</Button>
                             </a>
                             <a href="https://github.com/Gaalmonte/Phaser-Game"
                                 target="_blank"
-                                rel="noopener noreferrer">
+                                rel="noreferrer">
                                 <Button variant="secondary" size="md"className="Button1" >Source Code</Button>
                             </a>
                         </Card.Footer>

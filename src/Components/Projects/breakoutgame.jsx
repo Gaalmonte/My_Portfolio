@@ -1,5 +1,4 @@
-import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
+import {Card, Button} from "react-bootstrap";
 import HoverVideoPlayer from 'react-hover-video-player';
 import breakoutgame from '../img/breakoutgame.mp4';
 import breakoutgamepreview from '../img/2dbreakoutpreview.png'
@@ -37,12 +36,12 @@ function BreakoutGame() {
                         <Card.Footer>
                             <a href="https://gaalmonte.github.io/2D-Breakout-Game/"
                                 target="_blank"
-                                rel="noopener no referrer">
+                                rel="noreferrer">
                                 <Button variant="secondary" size="md" className="Button1">Deployment</Button>
                             </a>
                             <a href="https://github.com/Gaalmonte/2D-Breakout-Game"
                                 target="_blank"
-                                rel="noopener noreferrer">
+                                rel="noreferrer">
                                 <Button variant="secondary" size="md" className="Button1">Source Code</Button>
                             </a>
                         </Card.Footer>

@@ -7,7 +7,7 @@ function Background(props) {
     return <div className="mobile-hide">
         <Donut
         color="#e4717e" size="160px"
-        top={"-40px"}
+        top={"40px"}
         left={"10px"}
         width={['40px', '40px', '60px', '60px']}
         zIndex={0}
@@ -46,7 +46,7 @@ function Background(props) {
         <Diamond
         className="unwanted"
         color="linear-gradient(135deg, #f8e5e5, #dfcbd0)"
-        top={"10px"}
+        top={"40px"}
         right={"600px"}
         size={['0px', '0px', '0px', '40px']}
         zIndex={0}

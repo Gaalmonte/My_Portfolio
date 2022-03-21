@@ -1,5 +1,4 @@
-import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
+import {Card, Button} from "react-bootstrap";
 import HoverVideoPlayer from 'react-hover-video-player';
 import RottenPotatoes from '../img/rottenpotatoesvid.mp4';
 import RottenPotatoesPreview from '../img/rottenpotatoespic.png'
@@ -37,12 +36,12 @@ function Project1() {
                         <Card.Footer>
                             <a href="https://rotten-p0tat0es.herokuapp.com/"
                                 target="_blank"
-                                rel="noopener no referrer">
+                                rel="noreferrer">
                                 <Button variant="secondary" size="md" className="Button1">Deployment</Button>
                             </a>
                             <a href="https://github.com/Gaalmonte/rotten-potatoes"
                                 target="_blank"
-                                rel="noopener noreferrer">
+                                rel="noreferrer">
                                 <Button variant="secondary" size="md" className="Button1">Source Code</Button>
                             </a>
                         </Card.Footer>

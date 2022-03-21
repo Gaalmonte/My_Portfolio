@@ -69,7 +69,8 @@
     .i-scroll { visibility: hidden; }
 }
 .i-img{
-    top: 60px;
+    margin-top: 1vh;
+    top: 50px;
     height: 40vh;
     width: auto;
     clip-path: circle(50% at 50% 50%);

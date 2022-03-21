@@ -1,5 +1,4 @@
-import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
+import {Card, Button} from "react-bootstrap";
 import HoverVideoPlayer from 'react-hover-video-player';
 import superchat from '../img/superchat.mp4';
 import chatpreview from '../img/chatpreview.png'
@@ -37,12 +36,12 @@ function Superchat() {
                         <Card.Footer>
                             <a href="https://react-firebasesuperchat.herokuapp.com/"
                                 target="_blank"
-                                rel="noopener no referrer">
+                                rel="noreferrer">
                                 <Button variant="secondary" size="md" className="Button1">Deployment</Button>
                             </a>
                             <a href="https://github.com/Gaalmonte/Chat-Application"
                                 target="_blank"
-                                rel="noopener noreferrer">
+                                rel="noreferrer">
                                 <Button variant="secondary" size="md" className="Button1">Source Code</Button>
                             </a>
                         </Card.Footer>

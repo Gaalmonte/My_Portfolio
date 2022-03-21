@@ -1,6 +1,4 @@
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import Container from "react-bootstrap/Container";
+import {Row, Col, Container} from "react-bootstrap"
 import "./intro.css"
 import Me from '../img/me.jpg'
 
@@ -9,7 +7,7 @@ function Intro() {
     <Container fluid className="i-container">
       <Row>
         <Col>
-          <img src={Me} alt="picture of someone programming" className="i-img" />
+          <img src={Me} alt="portrait of myself" className="i-img" />
         </Col>
       </Row>
       <Row>
@@ -24,7 +22,9 @@ function Intro() {
           </div>
         </div>
         <p className="i-description">
-          I specialize in developing software of all types and as a hobby I like to dabble in game development.
+          I'm a Software Developer with a Banking Customer Service Background, <br></br>
+          I especialize in JavaScript with an interest in Cloud Technology.
+
         </p>
       </Col>
       </Row>

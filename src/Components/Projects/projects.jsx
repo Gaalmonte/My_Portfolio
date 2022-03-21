@@ -1,6 +1,4 @@
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import Container from "react-bootstrap/Container";
+import {Row, Col, Container} from "react-bootstrap"
 import "./projects.css"
 import Superchat from './superchat';
 import PhaserGame from './phasergame';

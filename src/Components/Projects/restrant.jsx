@@ -1,5 +1,4 @@
-import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
+import {Card, Button} from "react-bootstrap";
 import HoverVideoPlayer from 'react-hover-video-player';
 import restrant from '../img/restrant.mp4';
 import restrantpreview from '../img/restrantpreview.png'
@@ -31,18 +30,18 @@ function RestRant() {
                         <Card.Body className="cardbody">
                             <Card.Title>REST-rant</Card.Title>
                             <Card.Text>
-                                Built using Express, Nodejs, React, and Mongodb. Also utilized postman at times. Submit your own pages and leave your own review!
+                                Built using Express, Nodejs, React, and Mongodb. Also utilized postman at times. You can submit your own restaurants and leave comments.
                             </Card.Text>
                         </Card.Body>
                         <Card.Footer>
                             <a href="https://restrant.herokuapp.com/"
                                 target="_blank"
-                                rel="noopener no referrer">
+                                rel="noreferrer">
                                 <Button variant="secondary" size="md" className="Button1">Deployment</Button>
                             </a>
                             <a href="https://github.com/Gaalmonte/project-REST-rant"
                                 target="_blank"
-                                rel="noopener noreferrer">
+                                rel="noreferrer">
                                 <Button variant="secondary" size="md" className="Button1">Source Code</Button>
                             </a>
                         </Card.Footer>
