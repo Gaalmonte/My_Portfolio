@@ -11,19 +11,19 @@ function NavigationTool() {
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto" id="txtStyle"></Nav>
                         <BrowserRouter>
-                            <NavHashLink className="Link" to="#">
+                            <NavHashLink id="Link" to="#">
                                 ABOUT
                             </NavHashLink>
 
-                            <NavHashLink className="Link" to="#education">
+                            <NavHashLink id="Link" to="#education">
                                 EDUCATION
                             </NavHashLink>
 
-                            <NavHashLink className="Link" to="#projects">
+                            <NavHashLink id="Link" to="#projects">
                                 PROJECTS
                             </NavHashLink>
 
-                            <NavHashLink className="Link" to="#contact">
+                            <NavHashLink id="Link" to="#contact">
                                 CONTACT
                             </NavHashLink>
                         </BrowserRouter>

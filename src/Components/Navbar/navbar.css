@@ -1,4 +1,4 @@
-.Link{
+#Link{
     color: #f1f1ef;
     padding: 5px;
     text-decoration: none;
@@ -7,7 +7,7 @@
 
 }
 
-.Link:hover{
+#Link:hover{
     color: #e94560;
 }
 
